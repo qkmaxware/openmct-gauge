@@ -1,0 +1,21 @@
+{
+  "name": "openmct-gauge",
+  "version": "1.0.0",
+  "description": "OpenMCT gauge view for float based telemetry",
+  "scripts": {
+    
+  },
+  "keywords": [
+    "openmct",
+    "view",
+    "gauge"
+  ],
+  "author": "Colin Halseth",
+  "license": "MIT",
+  "dependencies": {
+
+  },
+  "devDependencies": {
+
+  }
+}
