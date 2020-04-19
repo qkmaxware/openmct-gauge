@@ -1,7 +1,12 @@
 # Telemetry Gauge View
+Percentage based views for live floating point telemetry data.
 
 ## Usage
+Create a new object of type `Gauge` or `Progress Bar`. You can optionally choose a min and max-value of the expected telemetry. If none is chosen the default min and max values are based on normalized percentages (0-1). Edit the object and drag onto the object's view any telemetry objects that you wish to observe.
 
+![](images/usage-percentage.png)
+
+![](images/usage-gauge.png)
 
 ## Installation
 If you are using my [OpenMCT Template](https://github.com/qkmaxware/openmct-template.git) simply clone this repo into `./plugins/openmct-gauge` and add the following config to the server's package.json.
